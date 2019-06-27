@@ -6,7 +6,8 @@
 - [技术选型及理由](#11-技术选型及理由)
 - [架构设计](#12-架构设计)
 - [模块划分](#13-模块划分)
-- [软件设计技术](#14-软件设计技术)
+- [软件设计技术](#14-软件设计技术) 
+
 2.[Server](#2-Server)
 - [技术选型及理由](#21-技术选型及理由)
 - [架构设计](#22-架构设计)
@@ -53,7 +54,7 @@
 ├── src
      ├── androidTest                                      	 //Android Test测试用例
      ├── main                     							
-     |    ├── java            							 		 //java代码
+     |    ├── java            						 //java代码
      |	  |    ├── com.sysu.ceres
      |    |    |    ├── activity
      |    |    |    | 	 |   CreateMessageActivity.java  	 //创建留言
@@ -96,7 +97,7 @@
      |    ├── res             					 //资源
      |    |    ├── drawable  					 //放置图片
      |    |    ├── drawable-v24   				 //放置图片
-     |    |    ├── layout  										 //放置布局文件
+     |    |    ├── layout  					 //放置布局文件
      |    |    |    |   activity_creat_survey.xml 		 //创建调查问卷界面
      |    |    |    |   activity_create_message.xml 		 //创建留言界面
      |    |    |    |   activity_do_survey.xml 			 //完成调查问卷界面
