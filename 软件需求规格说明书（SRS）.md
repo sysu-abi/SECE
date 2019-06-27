@@ -1,7 +1,7 @@
 # 软件需求规格说明书
 
-1.[引言](https://github.com/sysu-abi/SECE/blob/master/软件需求规格说明书（SRS）.md/##1.引言)
-   - 1.1、[目的](https://github.com/sysu-abi/SECE/edit/master/软件需求规格说明书（SRS）.md/###1.1、目的)
+1.[引言](https://github.com/sysu-abi/SECE/blob/master/软件需求规格说明书（SRS）.md/##引言)
+   - 1.1、[目的](https://github.com/sysu-abi/SECE/edit/master/软件需求规格说明书（SRS）.md/###目的)
    - 1.2、[项目背景](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###1.2、项目背景)
    - 1.3、[项目概要](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###1.3、项目概要)
 2. [任务概述](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/##2.任务概述)
