@@ -3,19 +3,19 @@
 1.[引言](#1引言)
    - 1.1、[目的](#11目的)
    - 1.2、[项目背景](#12项目背景)
-   - 1.3、[项目概要](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###1.3、项目概要)
-2. [任务概述](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/##2.任务概述)
-   - 2.1、[目标](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###2.1、目标)
-   - 2.2、[功能需求](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###2.2、功能需求)
-     - 2.2.1、[用例图](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####2.2.1、用例图)
-     - 2.2.2、[活动图](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####2.2.2、活动图)
-     - 2.2.3、[领域模型](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####2.2.3、领域模型)
-     - 2.2.4、[状态模型](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####2.2.4、状态模型)
-     - 2.2.5、[功能模型](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####2.2.5、功能模型)
-   - 2.3、[用户特征](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###2.3、用户特征)
-   - 2.4、[设计和实现上的约束](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/###2.4、设计和实现上的约束)
-3. [需求](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/##3.需求)
-4. [运行环境](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/##4.运行环境)
+   - 1.3、[项目概要](#13项目概要)
+2. [任务概述](#2任务概述)
+   - 2.1、[目标](#21目标)
+   - 2.2、[功能需求](#22功能需求)
+     - 2.2.1、[用例图](#221用例图)
+     - 2.2.2、[活动图](#222活动图)
+     - 2.2.3、[领域模型](#223领域模型)
+     - 2.2.4、[状态模型](#224状态模型)
+     - 2.2.5、[功能模型](#225功能模型)
+   - 2.3、[用户特征](#23用户特征)
+   - 2.4、[设计和实现上的约束](#24设计和实现上的约束)
+3. [需求](#3需求)
+4. [运行环境](#4运行环境)
 
 ## 1.引言
 
@@ -40,13 +40,13 @@
 基本的挣闲钱机制
    - 首先是需要用户的注册与登录，再次就是需要用户的位置信息，因为如果是线下的任务（比如帮拿快递之类的）就需要任务发布者与接取者的距离很近，
         因此位置信息是必要的。
-   - 为了减少虚假信息的存在，我们会引入[信用体制](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####信用体制)，信用出现问题的用户，我们会给与一定时间的账号封禁作为惩罚。
-   - 考虑到即使是这样的琐碎任务也会有难度上的不同，我们会让用户在发布任务的时候填写一个[难度等级](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####难度等级)（根据工作量，截止时间等要素判断）。
-   - 一个截取任务的用户界面，自然会伴随着任务的[排序问题](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####排序问题)，什么样的任务放在醒目的位置，这排序也是一个问题。
-   - 考虑到一些任务发布的信息不能概括，所以需要一个发布者与接受者[交流](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####用户交流)的地方，但是又不能直接挂联系方式（个人信息问题，以及避免两者直接绕过平台线下交易）。
-   - 货币[交易系统](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####交易系统)，任务发布者发布任务之后扣除金币，这个金币先由系统保留，等到接取任务的人顺利完成任务之后由系统将报酬转进接取者的账户。
-   - 对于一个任务，当然要考虑同时在线人数问题，假设一个限一人完成的任务，已经有一个人确认接取之后，其他还在这个任务界面的用户的界面将会自动刷新，显示为已被接取。同时总会有一些任务在没人接取的情况下到达截止时间，又或者任务发布者突然需要修改任务信息，所以需要一个任务的[信息自动更新](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####信息自动更新)系统。
-   - 对于信用系统，不能按时按量完成任务的自然是要扣信用分，同时我们暂定是推出[每日任务](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####每日任务)系统已增加信用积分。
+   - 为了减少虚假信息的存在，我们会引入[信用体制](####信用体制)，信用出现问题的用户，我们会给与一定时间的账号封禁作为惩罚。
+   - 考虑到即使是这样的琐碎任务也会有难度上的不同，我们会让用户在发布任务的时候填写一个[难度等级](####难度等级)（根据工作量，截止时间等要素判断）。
+   - 一个截取任务的用户界面，自然会伴随着任务的[排序问题](####排序问题)，什么样的任务放在醒目的位置，这排序也是一个问题。
+   - 考虑到一些任务发布的信息不能概括，所以需要一个发布者与接受者[交流](####用户交流)的地方，但是又不能直接挂联系方式（个人信息问题，以及避免两者直接绕过平台线下交易）。
+   - 货币[交易系统](####交易系统)，任务发布者发布任务之后扣除金币，这个金币先由系统保留，等到接取任务的人顺利完成任务之后由系统将报酬转进接取者的账户。
+   - 对于一个任务，当然要考虑同时在线人数问题，假设一个限一人完成的任务，已经有一个人确认接取之后，其他还在这个任务界面的用户的界面将会自动刷新，显示为已被接取。同时总会有一些任务在没人接取的情况下到达截止时间，又或者任务发布者突然需要修改任务信息，所以需要一个任务的[信息自动更新](####信息自动更新)系统。
+   - 对于信用系统，不能按时按量完成任务的自然是要扣信用分，同时我们暂定是推出[每日任务](####每日任务)系统已增加信用积分。
 ### 相关机制的具体说明
 
 #### 信用体制
