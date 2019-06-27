@@ -148,6 +148,9 @@
 
 1. 开发环境约束：
    - 前端：
+      -  开发工具是Android Studio
+      - 开发语言是java还有xml
+      - 开发环境Android
    - 后端：
       - （Spring+SpringMVC）框架
       - 开发工具:Eclipse + MySQL8.0 + Apache Tomcat9.0
