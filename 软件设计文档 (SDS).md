@@ -2,7 +2,19 @@
 
 注：挣闲钱同时也是该小组成员在 2019 年春季学期中山大学系统分析与设计课程的大作业。按照本课程作业要求在 SD 文档开头点明。
 
+1.[Client](#1-client)
+- [技术选型及理由](#11-技术选型及理由)
+- [架构设计](#12-架构设计)
+- [模块划分](#13-模块划分)
+- [软件设计技术](#14-软件设计技术)
+2.[Server](#2-Server)
+- [技术选型及理由](#21-技术选型及理由)
+- [架构设计](#22-架构设计)
+- [模块划分](#23-模块划分)
+- [软件设计技术](#24-软件设计技术)
+
 ## 1. Client
+
 
 #### 1.1 技术选型及理由
 
@@ -32,93 +44,95 @@
 #### 1.2 架构设计
 
 **项目目录结构：**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627185255587.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NIRU5YSTEyMTM4,size_16,color_FFFFFF,t_70)
+
+![在这里插入图片描述](https://github.com/sysu-abi/image/blob/master/%E8%BD%AF%E7%BB%BC%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3-%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.png)
+
 **其中src目录具体结构如下：**
 
 ```
 ├── src
-     ├── androidTest                                      		 //Android Test测试用例
+     ├── androidTest                                      	 //Android Test测试用例
      ├── main                     							
      |    ├── java            							 		 //java代码
      |	  |    ├── com.sysu.ceres
      |    |    |    ├── activity
-     |    |    |    | 	 |   CreateMessageActivity.java  		 //创建留言
-     |    |    |    |    |   CreatSurveyActivity.java 		     //创建调查问卷
-     |    |    |    |    |   DoSurveyActivity.java  		     //完成问卷
-     |    |    |    |    |   EditTaskActivity.java 			     //编辑任务
-     |    |    |    |    |   LoginActivity.java  				 //注册登录
-     |    |    |    |    |   MainActivity.java				     //程序入口
-     |    |    |    |    |   MyTaskActivity.java 				 //我的任务
-     |    |    |    |    |   TaskDetailActivity.java 			 //任务详情
+     |    |    |    | 	 |   CreateMessageActivity.java  	 //创建留言
+     |    |    |    |    |   CreatSurveyActivity.java 		 //创建调查问卷
+     |    |    |    |    |   DoSurveyActivity.java  		 //完成问卷
+     |    |    |    |    |   EditTaskActivity.java 		 //编辑任务
+     |    |    |    |    |   LoginActivity.java  		 //注册登录
+     |    |    |    |    |   MainActivity.java		         //程序入口
+     |    |    |    |    |   MyTaskActivity.java 		 //我的任务
+     |    |    |    |    |   TaskDetailActivity.java 		 //任务详情
      |    |    |    ├── adapter
      |    |    |    |	 |   MyMessageRecyclerViewAdapter.java   //留言列表适配器
      |    |    |    |	 |   MyTaskRecyclerViewAdapter.java 	 //任务列表适配器
-     |    |    |    |    |   SectionsPagerAdapter.java 		     //ViewPaper控件适配器
+     |    |    |    |    |   SectionsPagerAdapter.java 		 //ViewPaper控件适配器
      |    |    |    ├── fragment
-     |    |    |    |    |   MessageFragment.java				 //留言碎片
-     |    |    |    |    |   MineFragment.java	  			     //“我的”碎片
-     |    |    |    |    |   TaskDetailFragment.java			 //任务详情碎片
-     |    |    |    |    |   TaskListFragment.java			     //任务列表碎片
-     |    |    |    ├── http
+     |    |    |    |    |   MessageFragment.java		 //留言碎片
+     |    |    |    |    |   MineFragment.java	  		 //“我的”碎片
+     |    |    |    |    |   TaskDetailFragment.java		 //任务详情碎片
+     |    |    |    |    |   TaskListFragment.java		 //任务列表碎片
+     |    |    |    ├── http					
      |    |    |    |    |   Api.java
-     |    |    |    |    |   ApiMethods.java    				 //API函数
-     |    |    |    |    |   ApiService.java    				 //API服务
+     |    |    |    |    |   ApiMethods.java    		 //API函数
+     |    |    |    |    |   ApiService.java    		 //API服务
      |    |    |    ├── model
-     |    |    |    |    |   Message.java 					     //留言实体类
-     |    |    |    |    |   MessageList.java 			         //留言列表类
-     |    |    |    |    |   QuestionList.java 				     //问题列表类
-     |    |    |    |    |   Status.java						 //状态类
-     |    |    |    |    |   Survey.java						 //问卷实体类
-     |    |    |    |    |   SurveyFull.java					 //问题填充问卷类
-     |    |    |    |    |   SurveyList.java 					 //问卷列表类
-     |    |    |    |    |   Task.java						     //任务实体类
-     |    |    |    |    |   TaskList.java					     //任务列表类
-     |    |    |    |    |   User.java						     //用户实体类
-     |    |    |    |    |   UserList.java					     //用户列表类
+     |    |    |    |    |   Message.java 			 //留言实体类
+     |    |    |    |    |   MessageList.java 			 //留言列表类
+     |    |    |    |    |   QuestionList.java 			 //问题列表类
+     |    |    |    |    |   Status.java			 //状态类
+     |    |    |    |    |   Survey.java			 //问卷实体类
+     |    |    |    |    |   SurveyFull.java			 //问题填充问卷类
+     |    |    |    |    |   SurveyList.java 			 //问卷列表类
+     |    |    |    |    |   Task.java				 //任务实体类
+     |    |    |    |    |   TaskList.java			 //任务列表类
+     |    |    |    |    |   User.java				 //用户实体类
+     |    |    |    |    |   UserList.java			 //用户列表类
      |    |    |    ├── observer
-     |    |    |    |    |   MyObserver.java 					 //定义观察者接口
-     |    |    |    |    |   ObserverOnNextListener.java   	     //监听接口  
-     |    |    |    |    |   CeresConfig.java 				     //配置文件
-     |    ├── res             									 //资源
-     |    |    ├── drawable  									 //放置图片
-     |    |    ├── drawable-v24   								 //放置图片
+     |    |    |    |    |   MyObserver.java 			 //定义观察者接口
+     |    |    |    |    |   ObserverOnNextListener.java   	 //监听接口  
+     |    |    |    |    |   CeresConfig.java 			 //配置文件
+     |    ├── res             					 //资源
+     |    |    ├── drawable  					 //放置图片
+     |    |    ├── drawable-v24   				 //放置图片
      |    |    ├── layout  										 //放置布局文件
-     |    |    |    |   activity_creat_survey.xml 				 //创建调查问卷界面
-     |    |    |    |   activity_create_message.xml 			 //创建留言界面
-     |    |    |    |   activity_do_survey.xml 					 //完成调查问卷界面
-     |    |    |    |   activity_edit_task.xml    				 //编辑任务界面
-     |    |    |    |   activity_login.xml 						 //注册登录界面
-     |    |    |    |   activity_main.xml 						 //主界面
-     |    |    |    |   activity_my_task.xml 					 //我的任务界面
-     |    |    |    |   activity_task_detail.xml 				 //任务详情界面
-     |    |    |    |   fragment_message_list.xml 				 //留言列表
-     |    |    |    |   fragment_message_list_item.xml 			 //留言条目
-     |    |    |    |   fragment_mine.xml                		 //“我的”界面
-     |    |    |    |   fragment_task_detail.xml  				 //任务详情
-     |    |    |    |   fragment_task_list.xml 					 //任务列表
-     |    |    |    |   fragment_task_list_item.xml 			 //任务条目
-     |    |    ├── menu 										 //菜单按钮文件
-     |    |    |    |   bottom_nav_menu.xml 					 //底部导航栏 
-     |    |    ├── mipmap-anydpi-v26 							 //放置应用图标
-     |    |    ├── mipmap-hdpi 			              			 //放置应用图标，高分辨率
-     |    |    ├── mipmap-mdpi									 //放置应用图标，
-     |    |    ├── mipmap-xhdpi									 //放置应用图标
-     |    |    ├── mipmap-xxhdpi								 //放置应用图标
-     |    |    ├── mipmap-xxxhdpi								 //放置应用图标
-     |    |    ├── values 										 //放字符串、样式、颜色等配置
-     |    |    |    |   colors.xml 								 //颜色
-     |    |    |    |   dimens.xml 								 //自动生成Android屏幕适配
-     |    |    |    |   strings.xml 							 //字符串
-     |    |    |    |   styles.xml  							 //样式
+     |    |    |    |   activity_creat_survey.xml 		 //创建调查问卷界面
+     |    |    |    |   activity_create_message.xml 		 //创建留言界面
+     |    |    |    |   activity_do_survey.xml 			 //完成调查问卷界面
+     |    |    |    |   activity_edit_task.xml    		 //编辑任务界面
+     |    |    |    |   activity_login.xml 			 //注册登录界面
+     |    |    |    |   activity_main.xml 			 //主界面
+     |    |    |    |   activity_my_task.xml 			 //我的任务界面
+     |    |    |    |   activity_task_detail.xml 		 //任务详情界面
+     |    |    |    |   fragment_message_list.xml 		 //留言列表
+     |    |    |    |   fragment_message_list_item.xml 		 //留言条目
+     |    |    |    |   fragment_mine.xml                	 //“我的”界面
+     |    |    |    |   fragment_task_detail.xml  		 //任务详情
+     |    |    |    |   fragment_task_list.xml 			 //任务列表
+     |    |    |    |   fragment_task_list_item.xml 		 //任务条目
+     |    |    ├── menu 					 //菜单按钮文件
+     |    |    |    |   bottom_nav_menu.xml 			 //底部导航栏 
+     |    |    ├── mipmap-anydpi-v26 				 //放置应用图标
+     |    |    ├── mipmap-hdpi 			              	 //放置应用图标，高分辨率
+     |    |    ├── mipmap-mdpi					 //放置应用图标，
+     |    |    ├── mipmap-xhdpi					 //放置应用图标
+     |    |    ├── mipmap-xxhdpi				 //放置应用图标
+     |    |    ├── mipmap-xxxhdpi				 //放置应用图标
+     |    |    ├── values 					 //放字符串、样式、颜色等配置
+     |    |    |    |   colors.xml 				 //颜色
+     |    |    |    |   dimens.xml 				 //自动生成Android屏幕适配
+     |    |    |    |   strings.xml 				 //字符串
+     |    |    |    |   styles.xml  				 //样式
      |    |    ├── values-w820dp 
-     |    |    |    |   dimens.xml 								 //自动生成Android屏幕适配
+     |    |    |    |   dimens.xml 				 //自动生成Android屏幕适配
      |    |    ├── xml 
      |    |    |    |   network_security_config.xml              //网络安全配置文件
-     |    | AndroidManifest.xml             					 //配置文件
-     ├── test              										 //Unit Test测试用例
-     |   .gitignore                  							 //忽略指定文件
-     |   build.gradle 											 //app模块的gradle构建脚本
-     |   proguard-rules.pro										 //指定项目代码的混淆规则
+     |    | AndroidManifest.xml             			 //配置文件
+     ├── test              					 //Unit Test测试用例
+     |   .gitignore                  				 //忽略指定文件
+     |   build.gradle 						 //app模块的gradle构建脚本
+     |   proguard-rules.pro					 //指定项目代码的混淆规则
    
 ```
 
@@ -164,7 +178,7 @@
 
 **各模块间关系如下：**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627185607481.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NIRU5YSTEyMTM4,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://github.com/sysu-abi/image/blob/master/%E8%BD%AF%E7%BB%BC%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3-%E6%A8%A1%E5%9D%97%E9%97%B4%E5%85%B3%E7%B3%BB.PNG)
 
 #### 1.4 软件设计技术
 
@@ -172,7 +186,7 @@
 
 从上面的1.2中文件结构可以看到，数据库中的表对应的实体被封装成类，实现面向对象，在逻辑层代码进行操作时只需调用类中函数即可，model的具体结构如下：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627185641811.png)
+![在这里插入图片描述](https://github.com/sysu-abi/image/blob/master/%E8%BD%AF%E7%BB%BC%E8%AE%BE%E8%AE%A1%E6%96%87%E6%A1%A3-%E5%89%8D%E7%AB%AFmodel%E7%BB%93%E6%9E%84.png)
 
 **md5算法加密密码**
 
@@ -180,7 +194,7 @@
 
 ## 2. Server
 
-#### 2.1 技术选型理由
+#### 2.1 技术选型及理由
 
 **Spring框架**
 
@@ -205,7 +219,7 @@ MySql是一种关系数据库管理系统，关系数据库将数据保存在不
 
 整体是 **Client-Server(CS)** 架构，如下图所示：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190627185711855.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NIRU5YSTEyMTM4,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://github.com/sysu-abi/image/blob/master/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1-%E7%89%A9%E7%90%86%E8%A7%86%E5%9B%BE.PNG)
 
 #### 2.3 模块划分
 
@@ -215,7 +229,7 @@ MySql是一种关系数据库管理系统，关系数据库将数据保存在不
 
 ```
 ├── src                                     				   
-	 ├── com.c72                    							
+     ├── com.c72                    							
      |    |    AnswerStatistics.java         
      |    |    AnswerStatisticsMapper.java		
      |    |    Message.java
@@ -242,21 +256,21 @@ MySql是一种关系数据库管理系统，关系数据库将数据保存在不
 
 **具体的类包括：**
 
-- **User：** 表示用户实体的类。具有uid,name,phone,email，password这些基本属性，以及money和credit这两个附加属性。用户可发布或接受任务。
+- **User：** 表示用户实体的类。具有uid,name,phone,email，password这些基本属性，以及money和credit这两个附加属性。用户可发布或接受任务。</br>
   **UserMapper**是User对RowMapper接口的实现。
-- **Task：** 表示任务实体的类。具有标题、内容、酬劳等属性。部分任务与调查问卷关联。
+- **Task：** 表示任务实体的类。具有标题、内容、酬劳等属性。部分任务与调查问卷关联。</br>
   **TaskMapper**是Task对RowMapper接口的实现。
-- **Message：** 表示留言实体的类。具有内容、所属楼层等属性。与任务和用户相关联。
+- **Message：** 表示留言实体的类。具有内容、所属楼层等属性。与任务和用户相关联。</br>
   **MessageMapper**是Message对RowMapper接口的实现。
-- **Survey：** 表示问卷实体的类。与任务相关联。
+- **Survey：** 表示问卷实体的类。与任务相关联。</br>
   **SurveyMapper**是Survey对RowMapper接口的实现。
-- **Question：** 表示问题实体的类。具有内容、所属楼层等属性。与调查问卷相关联。
+- **Question：** 表示问题实体的类。具有内容、所属楼层等属性。与调查问卷相关联。</br>
   **QuestionMapper**是Question对RowMapper接口的实现。
-- **AnswerStatistics：** 表示问题统计结果的类。记录了问卷id，问题id，和各项答案的统计数。
+- **AnswerStatistics：** 表示问题统计结果的类。记录了问卷id，问题id，和各项答案的统计数。</br>
   **AnswerStatisticsMapper**是AnswerStatistics对RowMapper接口的实现。
-- **Session：** 记录用户的登录，用于核对用户信息。其属性包括cookie和uid。
+- **Session：** 记录用户的登录，用于核对用户信息。其属性包括cookie和uid。</br>
   **SessionMapper**是Session对RowMapper接口的实现。
-- **UserJoin：** 记录用户参与的任务。
+- **UserJoin：** 记录用户参与的任务。</br>
   **UserJoinMapper**是UserJoin对RowMapper接口的实现。
 
 
