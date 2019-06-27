@@ -54,7 +54,7 @@
 ├── src
      ├── androidTest                                      	 //Android Test测试用例
      ├── main                     							
-     |    ├── java            						 //java代码
+     |    ├── java            					//java代码
      |	  |    ├── com.sysu.ceres
      |    |    |    ├── activity
      |    |    |    | 	 |   CreateMessageActivity.java  	 //创建留言
