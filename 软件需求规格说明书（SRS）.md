@@ -1,21 +1,21 @@
 # 软件需求规格说明书
 
-1. 引言
-   - 1.1、目的
-   - 1.2、项目背景
-   - 1.3、项目概要
-2. 任务概述
-   - 2.1、目标
-   - 2.2、功能需求
-     - 2.2.1、用例图
-     - 2.2.2、活动图
-     - 2.2.3、领域模型
-     - 2.2.4、状态模型
-     - 2.2.5、功能模型
-   - 2.3、用户特征
-   - 2.4、设计和实现上的约束
-3. 需求
-4. 运行环境
+1. [引言](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/##1.引言)
+   - 1.1、[目的](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 1.1、目的)
+   - 1.2、[项目背景](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 1.2、项目背景)
+   - 1.3、[项目概要](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 1.3、项目概要)
+2. [任务概述](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/## 2.任务概述)
+   - 2.1、[目标](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 2.1、目标)
+   - 2.2、[功能需求](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 2.2、功能需求)
+     - 2.2.1、[用例图](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/#### 2.2.1、用例图)
+     - 2.2.2、[活动图](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/#### 2.2.2、活动图)
+     - 2.2.3、[领域模型](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/#### 2.2.3、领域模型)
+     - 2.2.4、[状态模型](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/#### 2.2.4、状态模型)
+     - 2.2.5、[功能模型](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/#### 2.2.5、功能模型)
+   - 2.3、[用户特征](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 2.3、用户特征)
+   - 2.4、[设计和实现上的约束](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/### 2.4、设计和实现上的约束)
+3. [需求](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/## 3.需求)
+4. [运行环境](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/## 4.运行环境)
 
 ## 1.引言
 
@@ -40,13 +40,13 @@
 基本的挣闲钱机制
    - 首先是需要用户的注册与登录，再次就是需要用户的位置信息，因为如果是线下的任务（比如帮拿快递之类的）就需要任务发布者与接取者的距离很近，
         因此位置信息是必要的。
-   - 为了减少虚假信息的存在，我们会引入[信用体制](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#信用体制)，信用出现问题的用户，我们会给与一定时间的账号封禁作为惩罚。
-   - 考虑到即使是这样的琐碎任务也会有难度上的不同，我们会让用户在发布任务的时候填写一个[难度等级](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#难度等级)（根据工作量，截止时间等要素判断）。
-   - 一个截取任务的用户界面，自然会伴随着任务的[排序问题](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#排序问题)，什么样的任务放在醒目的位置，这排序也是一个问题。
-   - 考虑到一些任务发布的信息不能概括，所以需要一个发布者与接受者[交流](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#用户交流)的地方，但是又不能直接挂联系方式（个人信息问题，以及避免两者直接绕过平台线下交易）。
-   - 货币[交易系统](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#交易系统)，任务发布者发布任务之后扣除金币，这个金币先由系统保留，等到接取任务的人顺利完成任务之后由系统将报酬转进接取者的账户。
-   - 对于一个任务，当然要考虑同时在线人数问题，假设一个限一人完成的任务，已经有一个人确认接取之后，其他还在这个任务界面的用户的界面将会自动刷新，显示为已被接取。同时总会有一些任务在没人接取的情况下到达截止时间，又或者任务发布者突然需要修改任务信息，所以需要一个任务的[信息自动更新](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#信息自动更新)系统。
-   - 对于信用系统，不能按时按量完成任务的自然是要扣信用分，同时我们暂定是推出[每日任务](https://github.com/sysu-abi/docs/blob/master/04-vision.md/#每日任务)系统已增加信用积分。
+   - 为了减少虚假信息的存在，我们会引入[信用体制](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####信用体制)，信用出现问题的用户，我们会给与一定时间的账号封禁作为惩罚。
+   - 考虑到即使是这样的琐碎任务也会有难度上的不同，我们会让用户在发布任务的时候填写一个[难度等级](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####难度等级)（根据工作量，截止时间等要素判断）。
+   - 一个截取任务的用户界面，自然会伴随着任务的[排序问题](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####排序问题)，什么样的任务放在醒目的位置，这排序也是一个问题。
+   - 考虑到一些任务发布的信息不能概括，所以需要一个发布者与接受者[交流](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####用户交流)的地方，但是又不能直接挂联系方式（个人信息问题，以及避免两者直接绕过平台线下交易）。
+   - 货币[交易系统](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####交易系统)，任务发布者发布任务之后扣除金币，这个金币先由系统保留，等到接取任务的人顺利完成任务之后由系统将报酬转进接取者的账户。
+   - 对于一个任务，当然要考虑同时在线人数问题，假设一个限一人完成的任务，已经有一个人确认接取之后，其他还在这个任务界面的用户的界面将会自动刷新，显示为已被接取。同时总会有一些任务在没人接取的情况下到达截止时间，又或者任务发布者突然需要修改任务信息，所以需要一个任务的[信息自动更新](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####信息自动更新)系统。
+   - 对于信用系统，不能按时按量完成任务的自然是要扣信用分，同时我们暂定是推出[每日任务](https://github.com/sysu-abi/SECE/edit/master/%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88SRS%EF%BC%89.md/####每日任务)系统已增加信用积分。
 ### 相关机制的具体说明
 
 #### 信用体制
@@ -76,7 +76,7 @@
 
 #### 2.2.1、用例图
 
-![1559936475980](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559936475980.png)
+![用例图](https://github.com/sysu-abi/image/blob/master/%E7%94%A8%E4%BE%8B%E5%9B%BE.png)
 
 #### 用例描述
 
@@ -91,15 +91,15 @@
 
 #### 活动过程
 
-![泳道图](D:\作业\系分\doc\泳道图.PNG)
+![泳道图](https://github.com/sysu-abi/image/blob/master/%E6%B3%B3%E9%81%93%E5%9B%BE.PNG)
 
 #### 2.2.2、活动图
 
-![1559940491162](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559940491162.png)
+![活动图](https://github.com/sysu-abi/image/blob/master/%E6%B4%BB%E5%8A%A8%E5%9B%BE.png)
 
-### 2.2.3、领域模型
+#### 2.2.3、领域模型
 
-![1559943226806](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559943226806.png)
+![领域模型](https://github.com/sysu-abi/image/blob/master/%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B.png)
 
 
 
@@ -107,11 +107,11 @@
 
 发布任务状态图：
 
-![状态模型-发布订单状态图](D:\作业\系分\doc\状态模型-发布订单状态图.PNG)
+![状态模型-发布订单状态图](https://github.com/sysu-abi/image/blob/master/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%9E%8B-%E5%8F%91%E5%B8%83%E8%AE%A2%E5%8D%95%E7%8A%B6%E6%80%81%E5%9B%BE.PNG)
 
 接取任务状态图：
 
-![状态模型-接取订单状态图](D:\作业\系分\doc\状态模型-接取订单状态图.PNG)
+![状态模型-接取订单状态图](https://github.com/sysu-abi/image/blob/master/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%9E%8B-%E6%8E%A5%E5%8F%96%E8%AE%A2%E5%8D%95%E7%8A%B6%E6%80%81%E5%9B%BE.PNG)
 
 
 
@@ -126,17 +126,17 @@
 5. 放弃任务
 6. 完成任务
 
-![1559946581304](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559946581304.png)
+![注册与登录](https://github.com/sysu-abi/image/blob/master/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9E%8B-%E6%B3%A8%E5%86%8C%E4%B8%8E%E7%99%BB%E9%99%86.png)
 
-![1559946538411](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559946538411.png)
+![修改个人信息](https://github.com/sysu-abi/image/blob/master/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9E%8B-%E4%BF%AE%E6%94%B9%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png)
 
-![1559946618464](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559946618464.png)
+![发布或修改任务信息](https://github.com/sysu-abi/image/blob/master/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9E%8B-%E5%8F%91%E5%B8%83%E6%88%96%E4%BF%AE%E6%94%B9%E4%BB%BB%E5%8A%A1.png)
 
-![1559946656998](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559946656998.png)
+![接取任务](https://github.com/sysu-abi/image/blob/master/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9E%8B-%E6%8E%A5%E5%8F%96%E4%BB%BB%E5%8A%A1.png)
 
-![1559946709049](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559946709049.png)
+![放弃任务](https://github.com/sysu-abi/image/blob/master/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9E%8B-%E6%94%BE%E5%BC%83%E4%BB%BB%E5%8A%A1.png)
 
-![1559946744527](C:\Users\25755\AppData\Roaming\Typora\typora-user-images\1559946744527.png)
+![完成任务](https://github.com/sysu-abi/image/blob/master/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9E%8B-%E5%AE%8C%E6%88%90%E4%BB%BB%E5%8A%A1.png)
 
 ### 2.3、用户特征
 
