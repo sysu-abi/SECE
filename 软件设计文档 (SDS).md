@@ -52,99 +52,99 @@
 
 ```
 ├── src
-     ├── androidTest                                      	 		//Android Test测试用例
+     ├── androidTest                                                  //Android Test测试用例
      ├── main                     							
-     |    ├── java            					 					//java代码
+     |    ├── java                                                    //java代码
      |	  |    ├── com.sysu.ceres
      |    |    |    ├── activity
-     |    |    |    | 	 |   CreateMessageActivity.java  	 		//创建留言
-     |    |    |    |    |   CreatSurveyActivity.java 		 		//创建调查问卷
-     |    |    |    |    |   DoSurveyActivity.java  		 		//完成问卷
-     |    |    |    |    |   EditTaskActivity.java 		 			//编辑任务
-     |    |    |    |    |   LoginActivity.java  		 			//注册登录
-     |    |    |    |    |   MainActivity.java		         		//程序入口
-     |    |    |    |    |   MyTaskActivity.java 		 			//我的任务
-     |    |    |    |    |   StatisticListActivity.java 			//获取问卷数据信息
-     |    |    |    |    |   TaskDetailActivity.java 		 		//任务详情
+     |    |    |    | 	 |   CreateMessageActivity.java               //创建留言
+     |    |    |    |    |   CreatSurveyActivity.java                 //创建调查问卷
+     |    |    |    |    |   DoSurveyActivity.java                    //完成问卷
+     |    |    |    |    |   EditTaskActivity.java                    //编辑任务
+     |    |    |    |    |   LoginActivity.java                       //注册登录
+     |    |    |    |    |   MainActivity.java                        //程序入口
+     |    |    |    |    |   MyTaskActivity.java                      //我的任务
+     |    |    |    |    |   StatisticListActivity.java               //获取问卷数据信息
+     |    |    |    |    |   TaskDetailActivity.java                  //任务详情
      |    |    |    ├── adapter
-     |    |    |    |	 |   MyMessageRecyclerViewAdapter.java   	//留言列表适配器
-     |    |    |    |	 |   MyStatisticsRecyclerViewAdapter.java   //问卷数据信息适配器
-     |    |    |    |	 |   MyTaskRecyclerViewAdapter.java 	 	//任务列表适配器
-     |    |    |    |    |   SectionsPagerAdapter.java 		 		//ViewPaper控件适配器
+     |    |    |    |	 |   MyMessageRecyclerViewAdapter.java       //留言列表适配器
+     |    |    |    |	 |   MyStatisticsRecyclerViewAdapter.java    //问卷数据信息适配器
+     |    |    |    |	 |   MyTaskRecyclerViewAdapter.java          //任务列表适配器
+     |    |    |    |    |   SectionsPagerAdapter.java               //ViewPaper控件适配器
      |    |    |    ├── fragment
-     |    |    |    |    |   MessageFragment.java		 			//留言碎片
-     |    |    |    |    |   MineFragment.java	  		 			//“我的”碎片
-     |    |    |    |    |   StatisticsFragment.java	  			//问卷数据信息碎片
-     |    |    |    |    |   TaskDetailFragment.java		 		//任务详情碎片
-     |    |    |    |    |   TaskListFragment.java		 			//任务列表碎片
+     |    |    |    |    |   MessageFragment.java                     //留言碎片
+     |    |    |    |    |   MineFragment.java                        //“我的”碎片
+     |    |    |    |    |   StatisticsFragment.java                  //问卷数据信息碎片
+     |    |    |    |    |   TaskDetailFragment.java                  //任务详情碎片
+     |    |    |    |    |   TaskListFragment.java                    //任务列表碎片
      |    |    |    ├── http					
      |    |    |    |    |   Api.java
-     |    |    |    |    |   ApiMethods.java    		 			//API函数
-     |    |    |    |    |   ApiService.java    		 			//API服务
+     |    |    |    |    |   ApiMethods.java                          //API函数
+     |    |    |    |    |   ApiService.java                          //API服务
      |    |    |    ├── model
-     |    |    |    |    |   Message.java 			 				//留言实体类
-     |    |    |    |    |   MessageList.java 			 			//留言列表类
-     |    |    |    |    |   QuestionList.java 			 			//问题列表类
-     |    |    |    |    |   Statistic.java 			 			//问卷数据信息类
-     |    |    |    |    |   StatisticList.java 			 		//问卷问题选项列表
-     |    |    |    |    |   Status.java			 				//状态类
-     |    |    |    |    |   Survey.java			 				//问卷实体类
-     |    |    |    |    |   SurveyFull.java			 			//问题填充问卷类
-     |    |    |    |    |   SurveyList.java 			 			//问卷列表类
-     |    |    |    |    |   Task.java				 				//任务实体类
-     |    |    |    |    |   TaskList.java			 				//任务列表类
-     |    |    |    |    |   User.java				 				//用户实体类
-     |    |    |    |    |   UserList.java			 				//用户列表类
+     |    |    |    |    |   Message.java                             //留言实体类
+     |    |    |    |    |   MessageList.java                         //留言列表类
+     |    |    |    |    |   QuestionList.java                        //问题列表类
+     |    |    |    |    |   Statistic.java                           //问卷数据信息类
+     |    |    |    |    |   StatisticList.java                       //问卷问题选项列表
+     |    |    |    |    |   Status.java                              //状态类
+     |    |    |    |    |   Survey.java                              //问卷实体类
+     |    |    |    |    |   SurveyFull.java                          //问题填充问卷类
+     |    |    |    |    |   SurveyList.java                          //问卷列表类
+     |    |    |    |    |   Task.java                                //任务实体类
+     |    |    |    |    |   TaskList.java                            //任务列表类
+     |    |    |    |    |   User.java                                //用户实体类
+     |    |    |    |    |   UserList.java                            //用户列表类
      |    |    |    ├── observer
-     |    |    |    |    |   MyObserver.java 			 			//定义观察者接口
-     |    |    |    |    |   ObserverOnNextListener.java   	 		//监听接口 
+     |    |    |    |    |   MyObserver.java                          //定义观察者接口
+     |    |    |    |    |   ObserverOnNextListener.java              //监听接口 
      |    |    |    ├── utils
-     |    |    |    |    |   MyMD5Util.java   	 					//md5算法加密密码
-     |    |    |    |    CeresConfig.java 			 				//配置文件
-     |    ├── res             					 					//资源
-     |    |    ├── drawable  					 					//放置图片
-     |    |    ├── drawable-v24   				 					//放置图片
-     |    |    ├── layout  					 						//放置布局文件
-     |    |    |    |   activity_creat_survey.xml 		 			//创建调查问卷界面
-     |    |    |    |   activity_create_message.xml 		 		//创建留言界面
-     |    |    |    |   activity_do_survey.xml 			 			//完成调查问卷界面
-     |    |    |    |   activity_edit_task.xml    		 			//编辑任务界面
-     |    |    |    |   activity_edit_user.xml    		 			//编辑用户信息界面
-     |    |    |    |   activity_login.xml 			 				//注册登录界面
-     |    |    |    |   activity_main.xml 			 				//主界面
-     |    |    |    |   activity_my_task.xml 			 			//我的任务界面
-     |    |    |    |   activity_statistic_list.xml 			 	//数据信息列表界面
-     |    |    |    |   activity_task_detail.xml 		 			//任务详情界面
-     |    |    |    |   fragment_message_list.xml 		 			//留言列表
-     |    |    |    |   fragment_message_list_item.xml 		 		//留言条目
-     |    |    |    |   fragment_mine.xml                	 		//“我的”界面
-     |    |    |    |   fragment_statistics_item.xml                //问卷数据信息条目
-     |    |    |    |   fragment_statistics_list.xml                //问卷数据信息列表
-     |    |    |    |   fragment_task_detail.xml  		 			//任务详情
-     |    |    |    |   fragment_task_list.xml 			 			//任务列表
-     |    |    |    |   fragment_task_list_item.xml 		 		//任务条目
-     |    |    ├── menu 					 //菜单按钮文件
-     |    |    |    |   bottom_nav_menu.xml 			 			//底部导航栏 
-     |    |    ├── mipmap-anydpi-v26 				 				//放置应用图标
-     |    |    ├── mipmap-hdpi 			              	 			//放置应用图标，高分辨率
-     |    |    ├── mipmap-mdpi					 					//放置应用图标，
-     |    |    ├── mipmap-xhdpi					 					//放置应用图标
-     |    |    ├── mipmap-xxhdpi				 					//放置应用图标
-     |    |    ├── mipmap-xxxhdpi				 					//放置应用图标
-     |    |    ├── values 					 						//放字符串、样式、颜色等配置
-     |    |    |    |   colors.xml 				 					//颜色
-     |    |    |    |   dimens.xml 				 					//自动生成Android屏幕适配
-     |    |    |    |   strings.xml 				 				//字符串
-     |    |    |    |   styles.xml  				 				//样式
+     |    |    |    |    |   MyMD5Util.java                           //md5算法加密密码
+     |    |    |    |    CeresConfig.java                             //配置文件
+     |    ├── res             					 			//资源
+     |    |    ├── drawable                                           //放置图片
+     |    |    ├── drawable-v24                                       //放置图片
+     |    |    ├── layout                                             //放置布局文件
+     |    |    |    |   activity_creat_survey.xml                     //创建调查问卷界面
+     |    |    |    |   activity_create_message.xml                   //创建留言界面
+     |    |    |    |   activity_do_survey.xml                        //完成调查问卷界面
+     |    |    |    |   activity_edit_task.xml                        //编辑任务界面
+     |    |    |    |   activity_edit_user.xml                        //编辑用户信息界面
+     |    |    |    |   activity_login.xml                            //注册登录界面
+     |    |    |    |   activity_main.xml                             //主界面
+     |    |    |    |   activity_my_task.xml                          //我的任务界面
+     |    |    |    |   activity_statistic_list.xml                   //数据信息列表界面
+     |    |    |    |   activity_task_detail.xml                      //任务详情界面
+     |    |    |    |   fragment_message_list.xml                     //留言列表
+     |    |    |    |   fragment_message_list_item.xml                //留言条目
+     |    |    |    |   fragment_mine.xml                             //“我的”界面
+     |    |    |    |   fragment_statistics_item.xml                  //问卷数据信息条目
+     |    |    |    |   fragment_statistics_list.xml                  //问卷数据信息列表
+     |    |    |    |   fragment_task_detail.xml                      //任务详情
+     |    |    |    |   fragment_task_list.xml                        //任务列表
+     |    |    |    |   fragment_task_list_item.xml                   //任务条目
+     |    |    ├── menu                                               //菜单按钮文件
+     |    |    |    |   bottom_nav_menu.xml                           //底部导航栏 
+     |    |    ├── mipmap-anydpi-v26                                  //放置应用图标
+     |    |    ├── mipmap-hdpi                                        //放置应用图标，高分辨率
+     |    |    ├── mipmap-mdpi                                        //放置应用图标，
+     |    |    ├── mipmap-xhdpi                                       //放置应用图标
+     |    |    ├── mipmap-xxhdpi                                      //放置应用图标
+     |    |    ├── mipmap-xxxhdpi                                     //放置应用图标
+     |    |    ├── values                                             //放字符串、样式、颜色等配置
+     |    |    |    |   colors.xml                                    //颜色
+     |    |    |    |   dimens.xml                                    //自动生成Android屏幕适配
+     |    |    |    |   strings.xml                                   //字符串
+     |    |    |    |   styles.xml                                    //样式
      |    |    ├── values-w820dp 
-     |    |    |    |   dimens.xml 				 					//自动生成Android屏幕适配
+     |    |    |    |   dimens.xml                                    //自动生成Android屏幕适配
      |    |    ├── xml 
-     |    |    |    |   network_security_config.xml              	//网络安全配置文件
-     |    | AndroidManifest.xml             			 			//配置文件
-     ├── test              					 						//Unit Test测试用例
-     |   .gitignore                  				 				//忽略指定文件
-     |   build.gradle 						 						//app模块的gradle构建脚本
-     |   proguard-rules.pro					 						//指定项目代码的混淆规则
+     |    |    |    |   network_security_config.xml                   //网络安全配置文件
+     |    | AndroidManifest.xml                                       //配置文件
+     ├── test                                                         //Unit Test测试用例
+     |   .gitignore                                                   //忽略指定文件
+     |   build.gradle                                                 //app模块的gradle构建脚本
+     |   proguard-rules.pro                                           //指定项目代码的混淆规则
    
 ```
 
