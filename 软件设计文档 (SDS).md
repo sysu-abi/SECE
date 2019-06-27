@@ -53,11 +53,11 @@
 ```
 ├── src
      ├── androidTest                                                  //Android Test测试用例
-     ├── main                     							
+     ├── main
      |    ├── java                                                    //java代码
-     |	  |    ├── com.sysu.ceres
+     |    |    ├── com.sysu.ceres
      |    |    |    ├── activity
-     |    |    |    | 	 |   CreateMessageActivity.java               //创建留言
+     |    |    |    |    |   CreateMessageActivity.java               //创建留言
      |    |    |    |    |   CreatSurveyActivity.java                 //创建调查问卷
      |    |    |    |    |   DoSurveyActivity.java                    //完成问卷
      |    |    |    |    |   EditTaskActivity.java                    //编辑任务
@@ -67,17 +67,17 @@
      |    |    |    |    |   StatisticListActivity.java               //获取问卷数据信息
      |    |    |    |    |   TaskDetailActivity.java                  //任务详情
      |    |    |    ├── adapter
-     |    |    |    |	 |   MyMessageRecyclerViewAdapter.java       //留言列表适配器
-     |    |    |    |	 |   MyStatisticsRecyclerViewAdapter.java    //问卷数据信息适配器
-     |    |    |    |	 |   MyTaskRecyclerViewAdapter.java          //任务列表适配器
-     |    |    |    |    |   SectionsPagerAdapter.java               //ViewPaper控件适配器
+     |    |    |    |    |   MyMessageRecyclerViewAdapter.java        //留言列表适配器
+     |    |    |    |    |   MyStatisticsRecyclerViewAdapter.java     //问卷数据信息适配器
+     |    |    |    |    |   MyTaskRecyclerViewAdapter.java           //任务列表适配器
+     |    |    |    |    |   SectionsPagerAdapter.java                //ViewPaper控件适配器
      |    |    |    ├── fragment
      |    |    |    |    |   MessageFragment.java                     //留言碎片
      |    |    |    |    |   MineFragment.java                        //“我的”碎片
      |    |    |    |    |   StatisticsFragment.java                  //问卷数据信息碎片
      |    |    |    |    |   TaskDetailFragment.java                  //任务详情碎片
      |    |    |    |    |   TaskListFragment.java                    //任务列表碎片
-     |    |    |    ├── http					
+     |    |    |    ├── http
      |    |    |    |    |   Api.java
      |    |    |    |    |   ApiMethods.java                          //API函数
      |    |    |    |    |   ApiService.java                          //API服务
@@ -101,7 +101,7 @@
      |    |    |    ├── utils
      |    |    |    |    |   MyMD5Util.java                           //md5算法加密密码
      |    |    |    |    CeresConfig.java                             //配置文件
-     |    ├── res             					 			//资源
+     |    ├── res                                                     //资源
      |    |    ├── drawable                                           //放置图片
      |    |    ├── drawable-v24                                       //放置图片
      |    |    ├── layout                                             //放置布局文件
